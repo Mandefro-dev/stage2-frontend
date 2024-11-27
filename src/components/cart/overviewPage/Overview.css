@@ -1,0 +1,56 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  border: 2px solid #c1c1c1;
+  margin: 20px;
+}
+
+.navbars {
+  width: 700px;
+  height: 44px;
+  margin-top: 32px;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+.navbar_buttons {
+  width: 170px;
+  height: 44px;
+  border-radius: 100px;
+  gap: 10px;
+  display: flex;
+  border: 2px solid #c1c1c1;
+  align-items: center;
+  justify-content: center;
+}
+.yellow {
+  background-color: #fea301;
+  border: none;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-top: 30px;
+  gap: 15px;
+}
+.div_cards {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.div_cards h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 25px;
+}
+.cards {
+  display: flex;
+  margin-top: 20px;
+}

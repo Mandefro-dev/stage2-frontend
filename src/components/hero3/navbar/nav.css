@@ -1,0 +1,30 @@
+.Nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Nav_list {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 68px;
+  margin-left: 20px;
+  gap: 24px;
+}
+.Nav_list .Item {
+  list-style: none;
+  display: flex;
+  width: 200px;
+  border: 2px solid #c1c1c1;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.Nav_list #women {
+  background: #fea301;
+}

@@ -1,0 +1,68 @@
+.Hero5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  /* background-position-y: ;
+  background-position-x: */
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 500px;
+  border-radius: 24px;
+  background-color: #d0d0d0;
+  background-image: url("../../assets/img_bg.png");
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 511px;
+  height: 120px;
+  margin-top: 40px;
+  margin-left: 40px;
+  gap: 40px;
+}
+.title h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 4%;
+  color: #9847ef;
+}
+.desc {
+  width: 623px;
+  height: 160px;
+  top: 176px;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+.desc h4 {
+  letter-spacing: 4%;
+  color: #9847ef;
+}
+.button_banner button {
+  width: 280px;
+  height: 62px;
+  margin-left: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #fea301;
+  border: none;
+}
+.circle1 {
+  width: 58px;
+  height: 58px;
+  background-color: #ffd700;
+  margin-top: 331px;
+  margin-left: 680px;
+}

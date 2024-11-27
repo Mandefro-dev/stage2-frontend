@@ -1,0 +1,148 @@
+.Hero2_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  width: 100%;
+}
+.cards {
+  display: flex;
+}
+
+.product_desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 435px;
+  height: 435px;
+  top: 1083px;
+  left: 998px;
+  margin-left: 20px;
+  padding: 15px;
+  border: 2px solid #c1c1c1;
+}
+.product_desc .imgContainer {
+  width: 403px;
+  height: 2px;
+  top: 1099px;
+  left: 96px;
+  gap: 16px;
+
+  border-radius: 20px;
+}
+.imgContainer1 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 403px;
+  height: 258px;
+  border-radius: 15px;
+  margin-top: 0px;
+  background-color: #c1c1c1;
+  text-align: center;
+}
+.imgBan_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.imgBan_top p {
+  width: 67px;
+  height: 34px;
+  left: 320px;
+  border-radius: 100px;
+  padding: 8px 10px;
+  gap: 10px;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.heart_container {
+  width: 40px;
+  height: 40px;
+  top: 16px;
+  left: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.heart {
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 8px;
+}
+.imgContainer1 img {
+  display: flex;
+  align-self: center;
+  width: 213px;
+  /* height: 213px; */
+  padding-bottom: 20px;
+  top: 22px;
+  left: 95px;
+}
+.textContain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.textContain .women {
+  display: flex;
+  width: 67px;
+  height: 27px;
+
+  border: 1px solid #c1c1c1;
+  border-radius: 100px;
+  padding: 4px 10px;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.textContain .rating {
+  display: flex;
+  width: 120px;
+  height: 24px;
+  /* gap: 2px; */
+}
+.rating p {
+  display: flex;
+  width: 67px;
+  height: 27px;
+
+  /* border: 1px solid #c1c1c1;
+  border-radius: 100px; */
+  padding: 4px 10px;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.star {
+  height: 24px;
+  width: 24px;
+  color: #ffd700;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.text_container_name {
+  display: flex;
+  flex-direction: column;
+  width: 192px;
+  height: 63pxs;
+}
+.text_container_name h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.text_container_name h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #808080;
+}
