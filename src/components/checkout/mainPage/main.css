@@ -6,22 +6,123 @@
 }
 .shipping_addres {
   display: flex;
+  width: 700px;
+  height: 584px;
+  top: 179px;
+  left: 80px;
+  gap: 0px;
+  border-radius: 16px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 50px;
-  width: 850px;
-  height: 550px;
+  /* align-items: center;
+  justify-content: center; */
+
+  padding: 10px 50px;
+
   border-radius: 16px;
   border: 2px solid #c1c1c1;
   margin-right: 30px;
-  margin-left: 80px;
+  margin-left: 30px;
   margin-top: 30px;
   margin-bottom: 40px;
 }
+.shipping_addres .adress_title h1 {
+  width: 215px;
+  height: 36px;
+  top: 24px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.username h3 {
+  width: 56px;
+  height: 27px;
+  top: 92px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 30px;
+}
+.username input {
+  width: 710px;
+  height: 40px;
+  border: 1px solid #c1c1c1;
+  padding: 16px 10px 16px 10px;
+  gap: 0px;
+  border-radius: 8px;
 
+  justify-content: space-between;
+  opacity: 0px;
+  margin-top: 10px;
+}
+.cities {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+.citiy h3 {
+  width: 44px;
+  height: 27px;
+  top: 449px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.citiy input,
+.input_like {
+  width: 220px;
+  height: 40x;
+  top: 488px;
+  left: 24px;
+  padding: 16px 10px 16px 10px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  justify-content: space-between;
+  opacity: 0px;
+}
 .order_summery {
-  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 435px;
+  height: 501px;
+  top: 179px;
+  left: 997px;
+  gap: 0px;
+  border-radius: 16px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 10px;
+  margin-top: 30px;
+
+  /* margin-right: 30px;
   margin-left: 50px;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -29,16 +130,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  /* width: 400px; */
   height: 501px;
   border-radius: 16px;
   border: 2px solid #c1c1c1;
 }
-.order_summery .title {
+.order_summery .order_title {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: -60px;
+  margin-left: 200px;
 }
 .order_summery .title h1 {
   display: flex;
@@ -46,32 +149,146 @@
   justify-content: center;
 }
 .hr {
-  width: 200px;
+  width: 435px;
+  margin-top: 5px;
+  border: 1px solid #c9c9c9;
 }
 .detials_abt {
+  width: 287px;
+  height: 100px;
+  top: 92px;
+  left: 24px;
+  gap: 24px;
+  opacity: 0px;
+
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+  margin-left: -90px;
 }
-.shoes_detail {
+.shoes_pic {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  padding: 9px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #f2f2f2;
 }
-.shoes_detail img {
+.shoes_pic img {
   width: 82px;
   height: 82px;
 }
+.shoes_text {
+  width: 163px;
+  height: 61px;
+  gap: 4px;
+  opacity: 0px;
+}
+.shoes_text h2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.shoes_text h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
 .ordering {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+}
+.price_detail {
+  display: flex;
+  flex-direction: column;
+}
+.prcie_current {
+  width: 387px;
+  height: 24px;
+  top: 216px;
+  left: 24px;
+  gap: 230px;
+  justify-content: space-between;
+  opacity: 0px;
+
+  display: flex;
+
+  margin-left: 50px;
+}
+.prcie_current h2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.prcie_current h3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .total {
+  width: 387px;
+  height: 24px;
+  top: 352px;
+  left: 24px;
+  gap: 230px;
+  justify-content: space-between;
+  opacity: 0px;
+
   display: flex;
   justify-content: space-between;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.order_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 53px;
+  top: 408px;
+  left: 43px;
+  padding: 8px 10px 8px 10px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+
+  background: #fea301;
+  border: none;
+  margin-top: 30px;
 }
 button {
   width: 300px;
@@ -81,17 +298,44 @@ button {
   padding: 8px 10px;
 }
 
-.Payment {
-  width: 850px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.payment {
+  width: 893px;
+  height: 633px;
+  top: 803px;
+  left: 80px;
+  gap: 0px;
+
+  border: 2px;
+  opacity: 0px;
+
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
   border: 2px solid #c1c1c1;
   border-radius: 16px;
   margin-bottom: 50px;
-  margin-left: 90px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.payment h1 {
+  width: 213px;
+  height: 36px;
+  top: 24px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 20px;
+
+  margin-left: 30px;
 }
 .choice_system {
   display: flex;
@@ -100,14 +344,100 @@ button {
   gap: 20px;
 }
 .method {
+  top: 84px;
+  left: 24px;
+  padding: 32px 10px 32px 10px;
+  gap: 16px;
+  border-radius: 8px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 220px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
   border: 1px solid #c1c1c1;
   border-radius: 8px;
   padding: 32px 10px;
   /* margin-left: 20px; */
+}
+.name_card {
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.name_card h3 {
+  width: 130px;
+  height: 27px;
+  top: 260px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.name_card input {
+  width: 805px;
+  height: 56px;
+  top: 299px;
+  left: 24px;
+  padding: 16px 10px 16px 10px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px;
+  justify-content: space-between;
+  opacity: 0px;
+  border: 1px solid #c1c1c1;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.expirey_cvv {
+  display: flex;
+  justify-content: space-between;
+  gap: 350px;
+  margin-left: 20px;
+}
+.expirey_cvv h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.select_inputs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.popup {
+  width: 200px;
+  height: 50px;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 270px;
+  position: absolute;
+
+  border-radius: 50px;
+}
+.popup h3 {
+  margin-left: 15px;
 }

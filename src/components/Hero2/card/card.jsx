@@ -3,7 +3,7 @@ import { CiHeart } from "react-icons/ci";
 import bag from "../../../assets/bag1.png";
 import "./card.css";
 
-function Card({ img, type, rating, text, smalltext, price }) {
+function Card({ img, type, rating, text, smalltext, price, onclick }) {
   return (
     <div className="card">
       <div className="imgContianer">
@@ -30,7 +30,7 @@ function Card({ img, type, rating, text, smalltext, price }) {
       </div>
       <div className="cardPrice">
         <div className="price">${price}</div>
-        <button>Add cart</button>
+        <button onClick={onclick}>Add cart</button>
       </div>
     </div>
   );

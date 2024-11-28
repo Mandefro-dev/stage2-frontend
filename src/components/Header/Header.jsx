@@ -31,6 +31,13 @@ function Header() {
         <li className="list_items">Kids</li>
         <li className="list_items">Accessories</li>
 
+        {/* <select name="More" value="More">
+          <option value="More">More</option>
+          <option value="">Perfume</option>
+          <option value="">Perfume</option>
+          <option value="">Perfume</option>
+        </select> */}
+
         <Dropown
           baseTitle="More"
           items={[
