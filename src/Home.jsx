@@ -8,15 +8,15 @@ import Hero6 from "./components/hero6/hero6";
 import Footer from "./components/footer/Footer";
 
 function Home() {
-  const [cart, setCart] = useState([]);
-  function handleCart(product) {
-    setCart((prev) => [...prev, product]);
-  }
+  // const [cart, setCart] = useState([]);
+  // function handleCart() {
+  //   setCart((cart) => [..., cart]);
+  //}
   return (
     <div>
       <Header />
       <Hero1 />
-      <Hero2 addtocart={handleCart} />
+      <Hero2 />
       <Hero3 />
       <Hero5 />
       <Hero6 />

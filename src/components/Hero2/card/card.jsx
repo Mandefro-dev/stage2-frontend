@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { CiHeart } from "react-icons/ci";
-import bag from "../../../assets/bag1.png";
+
 import "./card.css";
 
 function Card({ img, type, rating, text, smalltext, price, onclick }) {

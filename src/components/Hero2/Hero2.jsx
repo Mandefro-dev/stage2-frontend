@@ -1,8 +1,5 @@
 import React from "react";
-import { MdNavigateNext } from "react-icons/md";
-import { IoIosArrowBack } from "react-icons/io";
-import { CiHeart } from "react-icons/ci";
-import { CiStar } from "react-icons/ci";
+
 import "./hero2.css";
 import bag from "../../assets/bag1.png";
 import dress from "../../assets/dress.png";

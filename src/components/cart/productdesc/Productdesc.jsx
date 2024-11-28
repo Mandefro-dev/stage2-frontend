@@ -12,7 +12,7 @@ import { TbBus } from "react-icons/tb";
 import { MdOutlinePolicy } from "react-icons/md";
 import { FaBagShopping } from "react-icons/fa6";
 import { CiHeart } from "react-icons/ci";
-import { MdKeyboardArrowDown } from "react-icons/md";
+
 function Productdesc() {
   const [num, setNum] = useState(0);
   function handleClick() {

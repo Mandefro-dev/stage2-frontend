@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./heronav.css";
 import { MdNavigateNext } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";

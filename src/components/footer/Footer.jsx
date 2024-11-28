@@ -3,7 +3,7 @@ import "./footer.css";
 import { FaWhatsapp } from "react-icons/fa";
 import { CiInstagram } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
-import logo from "../../assets/logo.png";
+
 function Footer() {
   return (
     <div className="footer">
